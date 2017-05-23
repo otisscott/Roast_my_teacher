@@ -4,6 +4,7 @@
     <description>
         Give anonymous reviews for your teachers.
     </description>
+    <icon density="mdpi" height="192" platform="android" src="img/logo.png" width="192" />
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
