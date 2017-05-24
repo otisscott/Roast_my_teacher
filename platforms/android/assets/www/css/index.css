@@ -28,30 +28,36 @@ body {
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
-    height:100%;
-    margin:0px;
-    padding:0px;
-    width:100%;
 }
-
-/* Portrait layout (default) */
-.app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
-    position:absolute;             /* position in the center of the screen */
-    left:50%;
-    top:30%;
-    height:50px;                   /* text area height */
-    width:225px;                   /* text area width */
-    text-align:center;
-    padding:170px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
-
+#logo {
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+    max-width: 47.5%;
+    max-height: 50%;
+    padding-bottom: 2%;
 }
 h1 {
     color: #ffffff;
     font-size:45px;
     font-family: Roboto, sans-serif;
-    font-weight:600;
+    font-weight:900;
     overflow:visible;
     text-align:center;
+    width: 50%;
+    margin: auto;
+}
+.confirm {
+    background-color: #ffffff;
+    width: 70%;
+    height: 30%;
+    margin: auto;
+}
+#ver {
+    background-color: #05bdd5;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
 }
