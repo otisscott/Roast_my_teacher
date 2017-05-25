@@ -57,7 +57,26 @@ h1 {
     background-color: #05bdd5;
     color: #ffffff;
     font-family: Roboto, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     text-align: center;
+    padding: 4%;
+}
+.idcheck {
+    width: 80%;
+    margin-left: 7%;
+    padding: 3%;
+}
+#con {
+    width: 87.5%;
+    margin-left: 7%;
+    padding: 3%;
+    background: none, #05bdd5;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 0;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
 }
