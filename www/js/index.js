@@ -1,4 +1,3 @@
-
 var app = {
     // Application Constructor
     initialize: function() {
@@ -21,7 +20,9 @@ var app = {
     }
 };
 
-
+function Confirm(id) {
+    $.post(url, { "studentID": <student_id:string>})
+}
 app.initialize();
 
 
