@@ -13,13 +13,13 @@ body {
     background-color: #05bdd5;
     color: white;
     font-family: Roboto, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 200%;
     width: 50%;
     padding: 5% 5% 2% 5%;
     text-align: center;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 40%;
 }
 #back {
     width: 50%;
@@ -31,6 +31,6 @@ body {
     box-shadow: 0;
     color: white;
     font-family: Roboto, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 50%;
 }

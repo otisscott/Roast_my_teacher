@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cstest.roastmyteacher" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <feature name="HeaderColor">
+        <param name="android-package" value="tomloprod.HeaderColor" />
+        <param name="onload" value="true" />
+    </feature>
     <name>Roast my Teacher</name>
     <description>
         Give anonymous reviews for your teachers.
@@ -18,4 +22,5 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="HeaderColor" value="#05bdd5" />
 </widget>

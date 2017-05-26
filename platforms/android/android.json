@@ -4,8 +4,36 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"HeaderColor\"><param name=\"android-package\" value=\"tomloprod.HeaderColor\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
-    "installed_plugins": {},
-    "dependent_plugins": {}
+    "installed_plugins": {
+        "cordova-plugin-headercolor": {
+            "PACKAGE_NAME": "io.cstest.roastmyteacher"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "cordova-plugin-headercolor.HeaderColor",
+            "file": "plugins/cordova-plugin-headercolor/www/HeaderColor.js",
+            "pluginId": "cordova-plugin-headercolor",
+            "clobbers": [
+                "cordova.plugins.headerColor"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-headercolor": "1.0"
+    }
 }
