@@ -16,21 +16,6 @@ body {
     font-weight: 600;
     font-size: 200%;
     width: 50%;
-    padding: 5% 5% 2% 5%;
+    padding: 5%;
     text-align: center;
-    margin: auto;
-    margin-top: 20%;
-}
-#back {
-    width: 50%;
-    margin: auto;
-    margin-top: 3%;
-    padding: 1.5%;
-    background: none, #05bdd5;
-    border: solid white;
-    box-shadow: 0;
-    color: white;
-    font-family: Roboto, sans-serif;
-    font-weight: 600;
-    font-size: 50%;
 }
