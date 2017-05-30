@@ -3,7 +3,8 @@ var app_url = "example.com";
 
 
 function confirm() {
-    var studentid = document.getElementById("idinput");
+    var studentid = document.getElementById("idinput").value;
+    console.log(studentid);
     for (i=0;i<studentid.length;i++) {
         if (isNan(studentid[i]) == false) {
             // $.post(app_url + "/api/login", {"student_id": studentid}, function (data) {
