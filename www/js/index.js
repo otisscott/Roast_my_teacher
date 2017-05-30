@@ -12,11 +12,7 @@ function confirm(studentid) {
             access_token = "gkjdrhso";
             console.log(access_token);
         }
-
     }
-    $.mobile.changePage(#error);
+    window.location.replace("error.html");
 }
-
-
-
 app.initialize();
