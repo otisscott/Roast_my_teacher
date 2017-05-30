@@ -2,7 +2,8 @@
 var app_url = "example.com";
 
 
-function confirm(studentid) {
+function confirm() {
+    var studentid = document.getElementById("idinput");
     for (i=0;i<studentid.length;i++) {
         if (isNan(studentid[i]) == false) {
             // $.post(app_url + "/api/login", {"student_id": studentid}, function (data) {
@@ -12,7 +13,8 @@ function confirm(studentid) {
             access_token = "gkjdrhso";
             console.log(access_token);
         }
+        window.location.replace("error.html");
     }
-    window.location.replace("error.html");
+
 }
 app.initialize();
