@@ -6,7 +6,7 @@ function confirm() {
     var studentid = document.getElementById("idinput").value;
     console.log(studentid);
     for (i=0;i<studentid.length;i++) {
-        if (isNan(studentid[i]) == false) {
+        if (isNaN(studentid[i]) == false) {
             // $.post(app_url + "/api/login", {"student_id": studentid}, function (data) {
             //     access_token = data["access_token"];
             //     console.log(access_token);
