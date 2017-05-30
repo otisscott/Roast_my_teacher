@@ -18,7 +18,5 @@ function confirm() {
     }
 
 }
-function goBack() {
-    window.history.back();
-}
+
 app.initialize();
