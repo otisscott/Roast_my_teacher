@@ -1,7 +1,4 @@
-
 var app_url = "example.com";
-
-
 function confirm() {
     var studentid = document.getElementById("idinput").value;
     console.log(studentid);
@@ -10,9 +7,7 @@ function confirm() {
     }
     window.location.replace("error.html");
 }
-
 app.initialize();
-
 // $.post(app_url + "/api/login", {"student_id": studentid}, function (data) {
 //     access_token = data["access_token"];
 //     console.log(access_token);
@@ -26,4 +21,3 @@ app.initialize();
 //}
 //window.location.replace("error.html");
 //}
-
