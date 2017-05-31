@@ -7,10 +7,7 @@ function confirm() {
     console.log(studentid);
     for (i=0;i<studentid.length;i++) {
         if (isNaN(studentid[i]) == false) {
-            // $.post(app_url + "/api/login", {"student_id": studentid}, function (data) {
-            //     access_token = data["access_token"];
-            //     console.log(access_token);
-            // });
+            window.location.replace("teacherlist.html");
             access_token = "gkjdrhso";
             console.log(access_token);
         }
@@ -20,3 +17,8 @@ function confirm() {
 }
 
 app.initialize();
+
+// $.post(app_url + "/api/login", {"student_id": studentid}, function (data) {
+//     access_token = data["access_token"];
+//     console.log(access_token);
+// });
