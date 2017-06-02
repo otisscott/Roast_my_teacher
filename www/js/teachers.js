@@ -10,7 +10,6 @@ $.getJSON('0.0.0.0:4000/api/teachers', {}, function (data) {
 
 
 
-
 var teacherlist = [];
 //for (var j=0; j < data.length; j++) {
    // teacherlist +
