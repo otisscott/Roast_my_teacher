@@ -4,5 +4,8 @@
 #logo {
     display: block;
     /* max-width: 10%; */
-    width: 85px;
+    width: 10%;
+}
+#pageone {
+    margin-top: 10%;
 }
