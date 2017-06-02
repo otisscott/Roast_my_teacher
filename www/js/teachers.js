@@ -23,6 +23,6 @@ function appendTeachers() {
 
 
 
-function willisatard() {
+function benisatard() {
     $.post("http://0.0.0.0:4000/api/teachers", {"id": 69, "name": "ALBINSON","subject" : "NOTHING"}, function(){}, 'json')
 }
