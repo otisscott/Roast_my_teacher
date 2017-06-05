@@ -11,7 +11,7 @@ function confirm() {
         console.log(data);
         window.location = "/teachers.html?access_token=" + access_token;
     }).fail(function (data) {
-        console.log(data);
+        console.log(data)
     });
 }
 app.initialize();
