@@ -9,6 +9,13 @@ body {
     background-color: #333333;
     background-attachment:fixed;
 }
+@mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 .error {
     background-color: #05bdd5;
     color: white;
@@ -16,12 +23,14 @@ body {
     font-weight: 700;
     font-size: 200%;
     width: 50%;
+    height: 60%;
     padding: 5% 5% 2% 5%;
     text-align: center;
     margin: auto;
-    margin-top: 40%;
+    @include vertical-align();
 }
-#back {
+
+#home {
     width: 50%;
     margin: auto;
     margin-top: 3%;
