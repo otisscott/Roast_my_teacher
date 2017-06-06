@@ -13,6 +13,7 @@ function confirm() {
     }).fail(function (data) {
         console.log(data)
     });
+    $.getJSON
 }
 app.initialize();
 
