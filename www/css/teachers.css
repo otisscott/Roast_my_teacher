@@ -1,8 +1,22 @@
-.header {
+.ui-navbar {
+    height: 8%;
     color: white;
     background-color: #333333;
 }
 .ui-title {
     background-color: #333333;
     color: white;
+}
+#title {
+    position: fixed;
+    margin-left: 3%;
+    margin-top: 4%;
+    display: inline-block;
+    color: white;
+}
+#logo {
+    display: inline-block;
+    margin: 1% 0 0 1%;
+    width: 12%;
+    height: 12%;
 }
