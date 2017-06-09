@@ -9,18 +9,7 @@ function confirm() {
         console.log(data);
         window.location.href = "/teachers.html?access_token=" + access_token;
     }).fail(function (data) {
-        console.log(data)
+        console.log(data);
+        window.location = "/error.html"
     });
-    $.getJSON
-}
-app.initialize();
-
-
-for (i=0;i<studentid.length;i++) {
-if (isNaN(studentid[i]) == false) {
-    window.location.replace("teacherlist.html");
-     access_token = "gkjdrhso";
-    console.log(access_token);
-}
-window.location.replace("error.html");
 }

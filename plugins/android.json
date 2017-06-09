@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-headercolor": {
             "PACKAGE_NAME": "io.cstest.roastmyteacher"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cstest.roastmyteacher"
         }
     },
     "dependent_plugins": {}
