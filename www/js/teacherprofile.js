@@ -29,6 +29,8 @@ function noFun(id) {
     })
 }
 
-function newroast(id) {
-
+function newroast() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var id = urlParams.get('id');
+    window.location.href = "newroast.html?teacherid=" + id
 }
