@@ -1,0 +1,4 @@
+
+function loaded() {
+    $("#slider").slider();
+}
