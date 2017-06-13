@@ -7,7 +7,11 @@ function appendTeachers() {
         var teachers = data["data"];
         console.log(teachers);
         for (var i = 0; i < teachers.length; i++) {
-            $('#table').append("<li class='list-group-item'><a href='teacherprofile.html?id=" + teachers[i].id + "'>"+ teachers[i].name + "</a></li>")
+            $('#table').append("<li class='list-group-item justify-content-between'><a href='teacherprofile.html?id=" + teachers[i].id + "' onclick='store('" + teachers[i].name + "')'>"+ teachers[i].name + "</a><span class='badge badge-primary badge-pill text-right'>" + teachers[i].rating + "</span></li>")
         }
     });
+}
+function store(name) {
+    sessionStorage.name = name;
+    console.log(name);
 }

@@ -10,6 +10,6 @@ function confirm() {
         window.location.href = "/teachers.html?access_token=" + access_token;
     }).fail(function (data) {
         console.log(data);
-        //window.location = "/error.html"
+        window.location = "/error.html"
     });
 }

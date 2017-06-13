@@ -1,25 +1,13 @@
-body {
-    background-color: #333333;
-}
 #title {
-    position: fixed;
-    margin-left: 17%;
-    margin-top: 2%;
-    display: inline-block;
     color: white;
     font-size: 200%;
     font-family: Roboto, sans-serif;
-}
-#logo {
-    display: inline-block;
-    margin: 1% 0 1% 2%;
-    width: 12%;
-    height: auto;
 }
 .navbar{
     margin: 0;
     padding: 0;
     background-color: #333333;
+    z-index: 2;
 }
 .list-group {
     margin-top: 15%;
@@ -35,4 +23,12 @@ a {
 }
 .badge {
     background-color: #05bdd5;
+}
+#newroast {
+    margin-top: 145%;
+    margin-left: 82%;
+    position: fixed;
+    width: 14%;
+    height: auto;
+    z-index: 9999;
 }
