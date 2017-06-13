@@ -1,7 +1,12 @@
+body {
+    background-color: #333333;
+}
 #title {
     color: white;
     font-size: 200%;
     font-family: Roboto, sans-serif;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 .navbar{
     margin: 0;
@@ -10,7 +15,7 @@
     z-index: 2;
 }
 .list-group {
-    margin-top: 15%;
+    margin-top: 17%;
 }
 .list-group-item {
     background-color: #333333;
@@ -25,10 +30,13 @@ a {
     background-color: #05bdd5;
 }
 #newroast {
-    margin-top: 145%;
+    margin-top: 135%;
     margin-left: 82%;
     position: fixed;
     width: 14%;
     height: auto;
     z-index: 9999;
+}
+#roasts {
+    color: white;
 }

@@ -10,13 +10,12 @@ var urlParams = new URLSearchParams(window.location.search);
     noFun(id)
 };**/
 var loadData = function() {
+    $("#newroast").click(newroast);
     var id = urlParams.get('id');
     noFun(id)
 };
 
 function noFun(id) {
-    var name =  sessionStorage.getItem("name");
-    document.getElementById('title').innerHTML = name;
     $.getJSON(baseUrl + "/api/teachers/" + id + "/roasts", function (data) {
         var roasts = data.data;
         for(i=0; i < roasts.length ; i++) {
