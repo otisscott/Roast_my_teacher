@@ -23,7 +23,7 @@ function noFun(id) {
             rating = roasts[i].rating;
             $("#roasts").append("<li class='list-group-item justify-content-between'>" + rating + ":" + comment + "</li>")
         }
-        if(roasts.length == 0){
+        if(roasts.length === 0){
             $("#roasts").append("No roasts, get roasting!")
         }
     })

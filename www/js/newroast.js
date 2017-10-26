@@ -9,14 +9,14 @@ function loaded() {
         max: 5,
         step: 1,
         slide: function (event, ui) {
-            $("#amount").val("Rating: " + ui.value)
+            $("#amount").val("Rating: " + ui.value);
             sliderval = ui.value
         }
     });
 }
 
 function submit() {
-    var tid = param("teacherid")
+    var tid = param("teacherid");
     $.ajax({
         url: baseUrl + "/api/teachers/" + tid + "/roasts",
         type: "POST",
